@@ -15,7 +15,16 @@ void performAction(int choice) {
             printf("You chose to print something!\n");
             break;
         case 2:
-            printf("Option 2 is not implemented yet.\n");
+
+            //print TicTacToe board
+            //print 3x3 grid
+
+            printf("   |   |   \n");
+            printf("-----------\n");
+            printf("   |   |   \n");
+            printf("-----------\n");
+            printf("   |   |   \n");
+
             break;
         case 3:
             printf("Exiting the program. Goodbye!\n");
